@@ -25,8 +25,6 @@ IAmHere is an application that aims to manage the participants of an event. The 
 
 <img alt="Screens" title="Screens" src=".github/assets/screens.png" />
 
-<br />
-
 <a id="-technologies"></a>
 
 ## 🛠️ **Technologies**
@@ -36,8 +34,6 @@ This project was developed with the following technologies:
 - React Native
 - Expo
 - TypeScript
-
-<br />
 
 <a id="-how-to-use"></a>
 
