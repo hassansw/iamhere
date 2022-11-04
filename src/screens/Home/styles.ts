@@ -32,7 +32,15 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     marginRight: 12
   },
-  button: {
+  buttonUpdate: {
+    width: 56,
+    height: 56,
+    borderRadius: 5,
+    backgroundColor: "#E2A23C",
+    alignItems: "center",
+    justifyContent: "center"
+  },
+  buttonAdd: {
     width: 56,
     height: 56,
     borderRadius: 5,
@@ -45,8 +53,14 @@ export const styles = StyleSheet.create({
     fontSize: 16
   },
   listEmptyText: {
-    color: "#FFF",
+    color: "#FFFFFF",
     fontSize: 14,
     textAlign: "center"
+  },
+  listTitle: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#FFFFFF",
+    marginBottom: 16
   }
 })

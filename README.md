@@ -44,7 +44,7 @@ Follow the steps below to run this project
 - Clone o repository with `git clone https://github.com/luweslen/iamhere`;
 - Go to directory backend with `cd iamhere`
 - Install all dependencies with `yarn`
-- Start the dev server with `yarn start`
+- Start the app with `yarn start`
 
 <a id="-how-to-contribute"></a>
 

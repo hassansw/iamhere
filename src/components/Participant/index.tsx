@@ -1,17 +1,23 @@
+import { MaterialIcons } from '@expo/vector-icons';
 import { View, Text, TouchableOpacity } from "react-native";
 import { styles } from "./styles";
 
 export type ParticipantProps = {
+  id: number
   name: string
-  onRemove: (name: string) => void
+  onRemove: (id: number) => void
+  onUpdate: (id: number) => void
 }
 
-export function Participant({ name, onRemove }: ParticipantProps) {
+export function Participant({ id, name, onRemove, onUpdate }: ParticipantProps) {
   return (
     <View style={styles.container}>
       <Text style={styles.name}>{name}</Text>
-      <TouchableOpacity style={styles.button} onPress={() => onRemove(name)}>
-        <Text style={styles.buttonText}>-</Text>
+      <TouchableOpacity style={styles.buttonUpdate} onPress={() => onUpdate(id)}>
+        <MaterialIcons name='border-color' size={16} color="#FFFFFF" />
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.buttonRemove} onPress={() => onRemove(id)}>
+        <MaterialIcons name='remove' size={16} color="#FFFFFF" />
       </TouchableOpacity>
     </View>
   );

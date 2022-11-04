@@ -15,7 +15,16 @@ export const styles = StyleSheet.create({
     color: "#FFFFFF",
     marginLeft: 16
   },
-  button: {
+  buttonUpdate: {
+    width: 56,
+    height: 56,
+    borderRadius: 5,
+    backgroundColor: "#E2A23C",
+    alignItems: "center",
+    justifyContent: "center",
+    marginRight: 12
+  },
+  buttonRemove: {
     width: 56,
     height: 56,
     borderRadius: 5,
