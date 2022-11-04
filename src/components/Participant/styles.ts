@@ -7,33 +7,31 @@ export const styles = StyleSheet.create({
     borderRadius: 5,
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 10
+    marginBottom: 10,
   },
   name: {
     flex: 1,
     fontSize: 16,
     color: "#FFFFFF",
-    marginLeft: 16
+    marginLeft: 16,
   },
-  buttonUpdate: {
+  button: {
     width: 56,
     height: 56,
     borderRadius: 5,
-    backgroundColor: "#E2A23C",
     alignItems: "center",
     justifyContent: "center",
-    marginRight: 12
+  },
+  buttonUpdate: {
+    backgroundColor: "#E2A23C",
+
+    marginRight: 12,
   },
   buttonRemove: {
-    width: 56,
-    height: 56,
-    borderRadius: 5,
     backgroundColor: "#E23C44",
-    alignItems: "center",
-    justifyContent: "center"
   },
   buttonText: {
     color: "#FFFFFF",
-    fontSize: 16
-  }
-})
+    fontSize: 16,
+  },
+});
